@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>three.js webgl - custom attributes [lines]</title>
+		<title>SimDigityFrame</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="main.css">
@@ -95,6 +95,8 @@
 				const shaderMaterial = new THREE.ShaderMaterial( {
 
 					uniforms: uniforms,
+					//vertexShader: document.getElementById( 'vertexshader' ).textContent,
+					//fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
 					vertexShader: document.getElementById( 'vertexshader' ).textContent,
 					fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
 					blending: THREE.AdditiveBlending,
